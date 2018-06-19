@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context=".PasLogInit">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00cefb"
+        android:padding="10dp"
+        android:textSize="40dp"
+        android:text="Atlasi"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:fontFamily="cursive"
+
+        />
+
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="80dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/doc" />
+
+
+                        <ImageButton
+                            android:id="@+id/btnAnalizat"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignTop="@+id/imageButton3"
+                            android:layout_marginEnd="18dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/analizat" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_below="@+id/imageButton3"
+        android:gravity="center"
+        android:text="E-mjeku"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="152dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/btnAnalizat"
+                            android:layout_below="@+id/imageButton3"
+                            android:gravity="center"
+                            android:text="Analizat"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/btnSimptomat"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignStart="@+id/imageButton3"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/simptomat" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64dp"
+        android:gravity="center"
+        android:text="Simptomat"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/btnAnalizat"
+        android:layout_alignTop="@+id/btnSimptomat"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/fakteklinike" />
+
+
+    <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="148dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/btnAnalizat"
+                            android:layout_below="@+id/imageButton5"
+                            android:gravity="center"
+                            android:text="Fakte klinike"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+</RelativeLayout>

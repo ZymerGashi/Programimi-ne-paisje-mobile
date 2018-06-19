@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".rezultetAnaliza">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rezultatet e analizave"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#5cb9fb"
+        android:textColor="#ffffff"
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSasiaR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sasia :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtPeshaSpecifikeR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pesha specifike :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtReaksioniElektrokimikR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reaksioni elektrokimik :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtPerberesitENgurteR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Përbërësit e ngurtë :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtNatriumR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Natriumi :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtKaliumR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaliumi :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtKalciumR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalciumi :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtMagneziR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Magnezi :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtAmoniakR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amoniaku :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtFosfateR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fosfatet :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtUreR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Urea :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtAcidiUrikR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acidi Urik :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtAcidiLaktikR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acidi laktik :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtKreatininaR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kreatinina :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtKreatinaR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kreatina :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtAminoAcideR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amino acidet :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtIndikoniR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indikoni :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtUrobilinogjenaR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Urobilinogjena :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtAmilazaR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amilaza :"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

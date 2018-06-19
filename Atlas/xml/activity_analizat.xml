@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".analizat">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Krahasoni analizat tuaja"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:background="#3cb371"
+        android:padding="20dp"
+        android:textAlignment="center"
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtSasia"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Sasia(ml)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/txtPeshaSpecifike"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Pesha specifike"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/txtReaksioniElektrokimik"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Reaksioni elektrokimik (pH)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/txtPerberesitENgurte"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Përbërësit e ngurtë(g/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtNatrium"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Natrium(mmol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/txtKalium"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Kalium(mmol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtKalcium"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Kalcium(mmol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtMagnezi"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Magnez(mmol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtAmoniak"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Amoniak(mmol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtFosfate"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Fosfate(mmol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtUre"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Ure(mmol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtAcidiUrik"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Acid Urik(mmol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtAcidiLaktik"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Acid Laktik(mmol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtKreatinina"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Kreatinina(mmol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtKreatina"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Kreatina(umol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtAminoAcide"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Amino acide(g/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtIndikoni"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Indikoni(mmol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtUrobilinogjena"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Urobilinogjena(umol/d)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/txtAmilaza"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Amilaza(Nj.W.)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btnKrahasoAnalizat"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp"
+                android:background="#afec90"
+                android:text="Krahaso"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
